@@ -1,0 +1,84 @@
+.lh15 {
+	line-height: 15px;
+}
+
+.term {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #00FF00;
+	background: none;
+	letter-spacing: 1px;
+	
+}
+
+.termFontBlack {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #000000;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontRed {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #ff0000;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontGreen {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #00ff00;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontYellow {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #ffff00;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontBlue {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #0066ff;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontMagenta {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #ff00ff;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontCyan {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #00ffff;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontWhite {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #ffffff;
+	background: none;
+	letter-spacing: 1px;
+}
+
+.termFontGrey {
+	font-family: "Courier New",courier,fixed,monospace;
+	font-size: 12px;
+	color: #808080;
+	background: none;
+	letter-spacing: 1px;
+}
