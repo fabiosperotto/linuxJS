@@ -5,6 +5,9 @@ Este projeto não é nada sério, é um terminal baseando em Linux feito puramen
 
 Trabalha em cima da lib *termlib* de [N. Landsteiner](http://www.masswerk.at/termlib/ "N.Landsteiner"). Dentro do projeto tem o arquivo *termlib.zip* onde o autor original fornece uma documentação e exemplos de uso. Vários tópicos da documentação não funcionam mais, provavelmente o Landsteiner deve ter retirado algumas funcionalidades.
 
+Pra quem não conhece os trabalhos do Landsteiner: [JS/UIX complete terminal](http://www.masswerk.at/jsuix/index.html) e [Google BBS Terminal](http://www.masswerk.at/googleBBS/).
+
+
 ## Estrutura
 ***termlib.js***:
 
