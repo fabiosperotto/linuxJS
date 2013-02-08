@@ -183,6 +183,4 @@ function Bash(){
 			}
 		}
 	};
-	//help js: http://tutsmais.com.br/blog/javascript-2/metodos-funcoes-javascript-number-array-string-regexp/
-	//read txt file: http://stackoverflow.com/questions/8137225/read-txt-file-via-client-javascript
 }
