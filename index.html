@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Linuxjs by fabiosperotto</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Linuxjs</h1>
+        <h2>Terminal baseado em Linux feito em Javascript.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/fabiosperotto/linuxJS/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/fabiosperotto/linuxJS/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/fabiosperotto/linuxJS" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>Linux JS</h1>
+
+<p>Este projeto não é nada sério, é um terminal baseando em Linux feito puramente com Javascript. Faz referência ao bash, entretanto, ainda é incipiente. Em um futuro pode haver interação com PHP para manipulação de arquivos (até o presente momento não existem editores de texto).</p>
+
+<p><img src="http://img195.imageshack.us/img195/4743/linuxjs.png" alt="LinuxJs"></p>
+
+<p>Trabalha em cima da lib <em>termlib</em> de <a href="http://www.masswerk.at/termlib/" title="N.Landsteiner">N. Landsteiner</a>. Dentro do projeto tem o arquivo <em>termlib.zip</em> onde o autor original fornece uma documentação e exemplos de uso. Vários tópicos da documentação não funcionam mais, provavelmente o Landsteiner deve ter retirado algumas funcionalidades.</p>
+
+<p>Pra quem não conhece os trabalhos do Landsteiner: <a href="http://www.masswerk.at/jsuix/index.html">JS/UIX complete terminal</a> e <a href="http://www.masswerk.at/googleBBS/">Google BBS Terminal</a>.</p>
+
+<h2>Estrutura</h2>
+
+<p><strong><em>termlib.js</em></strong>:</p>
+
+<ul>
+<li>Faz a manipulação de Javascript e CSS em uma div, transformando-a em um terminal.</li>
+</ul><p><strong><em>init_terminal.js</em></strong>:</p>
+
+<ul>
+<li>Inclui novos arquivos js na página;</li>
+<li>Inicializa o terminal, baseado nos exemplos da documentação.</li>
+<li>Configura o terminal para não guardar históricos de comandos repetidos sequencialmente, posicionamento XY do terminal no navegador, tamanho em colunas e linhas do terminal. Também ativa o wrapping necessário para inserir múltiplas linhas de texto no terminal.</li>
+</ul><p>A partir destes dois arquivos um terminal já é instanciado na página, entretanto não tem funcionalidade alguma. Então foi desenvolvido o seguinte:</p>
+
+<p><strong><em>bash.js</em></strong>:</p>
+
+<ul>
+<li>É a classe responsável em interpretar os comandos inseridos no terminal.</li>
+<li>Ao digitar um comando e pressionar enter, um objeto de bash.js é instanciado para receber o comando e chamar o método referente ao mesmo, que retorna o resultado da execução para o próprio terminal. O ponto de partida e retorno estão nas linhas 52 e 53 da função termHandler() do arquivo <em>init_terminal.js</em>.</li>
+</ul><p><strong><em>man.js</em></strong>:</p>
+
+<ul>
+<li>
+<p>Classe responsável em fornecer a documentação dos comandos existentes. Referência a <em>man pages</em> do Linux. Exemplo:</p>
+
+<p><img src="http://img401.imageshack.us/img401/6509/manexemplo.png" alt="Man Page"></p>
+</li>
+<li><p><strong><em>index.html</em></strong>: página inicial do projeto com exemplo de utilização da <code>&lt;div&gt;</code> com terminal, veja também a folha de estilo <em>style.css</em> para formatos do terminal.</p></li>
+</ul>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
