@@ -40,11 +40,11 @@
 
 <h2>Estrutura</h2>
 
-<p><strong><em>termlib.js</em></strong>:</p>
+<h3>termlib.js</h3>
 
 <ul>
 <li>Faz a manipulação de Javascript e CSS em uma div, transformando-a em um terminal.</li>
-</ul><p><strong><em>init_terminal.js</em></strong>:</p>
+</ul><h3>init_terminal.js</h3>
 
 <ul>
 <li>Inclui novos arquivos js na página;</li>
@@ -52,20 +52,21 @@
 <li>Configura o terminal para não guardar históricos de comandos repetidos sequencialmente, posicionamento XY do terminal no navegador, tamanho em colunas e linhas do terminal. Também ativa o wrapping necessário para inserir múltiplas linhas de texto no terminal.</li>
 </ul><p>A partir destes dois arquivos um terminal já é instanciado na página, entretanto não tem funcionalidade alguma. Então foi desenvolvido o seguinte:</p>
 
-<p><strong><em>bash.js</em></strong>:</p>
+<h3>bash.js</h3>
 
 <ul>
 <li>É a classe responsável em interpretar os comandos inseridos no terminal.</li>
 <li>Ao digitar um comando e pressionar enter, um objeto de bash.js é instanciado para receber o comando e chamar o método referente ao mesmo, que retorna o resultado da execução para o próprio terminal. O ponto de partida e retorno estão nas linhas 52 e 53 da função termHandler() do arquivo <em>init_terminal.js</em>.</li>
-</ul><p><strong><em>man.js</em></strong>:</p>
+</ul><h3>man.js</h3>
 
 <ul>
-<li>
-<p>Classe responsável em fornecer a documentação dos comandos existentes. Referência a <em>man pages</em> do Linux. Exemplo:</p>
+<li>Classe responsável em fornecer a documentação dos comandos existentes. Referência a <em>man pages</em> do Linux. Exemplo:</li>
+</ul><p><img src="http://img401.imageshack.us/img401/6509/manexemplo.png" alt="Man Page"></p>
 
-<p><img src="http://img401.imageshack.us/img401/6509/manexemplo.png" alt="Man Page"></p>
-</li>
-<li><p><strong><em>index.html</em></strong>: página inicial do projeto com exemplo de utilização da <code>&lt;div&gt;</code> com terminal, veja também a folha de estilo <em>style.css</em> para formatos do terminal.</p></li>
+<h3>index.html</h3>
+
+<ul>
+<li>Página inicial do projeto com exemplo de utilização da <code>&lt;div&gt;</code> com terminal, veja também a folha de estilo <em>style.css</em> para formatos do terminal.</li>
 </ul>
       </section>
     </div>
