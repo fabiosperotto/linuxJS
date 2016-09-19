@@ -7,13 +7,13 @@ function termOpen() {
 		term = new Terminal(
 			{
 				x: 100,
-				y: 130,
+				y: 160,
 				cols: 70,
-				rows:35,
+				rows:30,
 				termDiv: 'termDiv',
 				bgColor: '#000000',
 				greeting: '%+r **** Linux JS **** %-r%n%n * Simulador de terminal baseado no /bin/bash feito em javascript%n '+
-							'* Utiliza lib de http://www.masswerk.at/termlib%n * Criador fabio a. sperotto - fabio.aiub@gmail.com%n '+
+							'* Utiliza lib de http://www.masswerk.at/termlib%n '+
 							'* Digite "halt" ou "exit" ou tecle ESC, para sair%n '+
 							'* Digite "info" para comandos disponíveis%n%n * Loading ...................... OK%n '+
 							'* Variáveis de ambiente ........ OFF%n * Concatenação de comandos ..... OFF%n '+

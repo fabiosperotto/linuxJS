@@ -1,7 +1,7 @@
 # Linux JS
 Este projeto não é nada sério, é um terminal baseando em Linux feito puramente com Javascript. Faz referência ao bash, entretanto, ainda é incipiente. Em um futuro pode haver interação com PHP para manipulação de arquivos (até o presente momento não existem editores de texto).
 
-![LinuxJs](http://img195.imageshack.us/img195/4743/linuxjs.png)
+![LinuxJs](terminal/img/linuxjs.png)
 
 Trabalha em cima da lib *termlib* de [N. Landsteiner](http://www.masswerk.at/termlib/ "N.Landsteiner"). Dentro do projeto tem o arquivo *termlib.zip* onde o autor original fornece uma documentação e exemplos de uso. Vários tópicos da documentação não funcionam mais, provavelmente o Landsteiner deve ter retirado algumas funcionalidades.
 
@@ -30,6 +30,6 @@ A partir destes dois arquivos um terminal já é instanciado na página, entreta
 
  - Classe responsável em fornecer a documentação dos comandos existentes. Referência a *man pages* do Linux. Exemplo:
 
- ![Man Page](http://img401.imageshack.us/img401/6509/manexemplo.png)
+ ![Man Page](terminal/img/manterm.png)
 
  - ***index.html***: página inicial do projeto com exemplo de utilização da `<div>` com terminal, veja também a folha de estilo *style.css* para formatos do terminal.
